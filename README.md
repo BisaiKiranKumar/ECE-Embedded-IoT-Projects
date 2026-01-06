@@ -1,5 +1,7 @@
 # Embedded Systems & IoT Projects
 
+ESP32 Home Automation project (WiFi-based relay control)
+
 This repository contains my hands-on work in Embedded Systems and IoT,
 developed as part of my Electronics and Communication Engineering (ECE) learning.
 
