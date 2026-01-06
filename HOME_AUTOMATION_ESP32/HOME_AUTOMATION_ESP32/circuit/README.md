@@ -5,3 +5,4 @@ Components used:
 - Relay module / resistors
 - Bulb / Load
 - Power supply
+- USB cable
