@@ -1,7 +1,8 @@
 void setup() {
-  // setup code
+  Serial.begin(115200);
 }
 
 void loop() {
-  // loop code
+  Serial.println("ESP32 Home Automation Project");
+  delay(1000);
 }
