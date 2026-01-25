@@ -16,5 +16,6 @@ developed as part of my Electronics and Communication Engineering (ECE) learning
 - Arduino basic experiments (LED, sensors)
 - ESP32-based IoT mini projects
 - Home automation concepts
+- Beginner PCB Design Project – Schematic design, PCB layout, BOM creation, and basic hardware workflow
 
 This repository is maintained for internship and learning purposes.
