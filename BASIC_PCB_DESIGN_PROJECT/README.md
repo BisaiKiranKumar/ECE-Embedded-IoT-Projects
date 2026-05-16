@@ -9,7 +9,7 @@ This project represents my first hands-on experience with PCB design as an Elect
 - Understood common beginner mistakes and how to correct them.
 
 ## Tools Used
-- PCB Design Software: EasyEDA (or the tool you used)
+- PCB Design Software: EasyEDA 
 - Basic Electronics Components
 
 ## What I Learned
