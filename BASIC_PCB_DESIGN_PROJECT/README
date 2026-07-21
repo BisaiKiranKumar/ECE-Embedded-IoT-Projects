@@ -1,0 +1,64 @@
+# Basic PCB Design Project
+
+This folder contains a basic PCB design project built around an ESP32-WROOM-32UE module. The board combines sensing, display, memory, USB-C power/input, and supporting power regulation components into a compact embedded IoT hardware design.
+
+## Project Overview
+
+The PCB is designed as a learning and prototyping project for embedded hardware development. It demonstrates how to create a schematic, select components, prepare a bill of materials, and generate PCB layout views for fabrication or review.
+
+Main features include:
+
+- ESP32-WROOM-32UE Wi-Fi/Bluetooth module
+- 0.96 inch SSD1306 OLED display interface
+- DHT22 temperature and humidity sensor
+- MQ9 gas sensor interface
+- LDR light sensing input
+- AT24C02 EEPROM memory
+- USB Type-C connector
+- AMS1117 3.3V voltage regulator
+- Supporting capacitors and resistors
+
+## Folder Contents
+
+| File | Description |
+| --- | --- |
+| `BOM_PCB.csv` | Bill of materials with component names, designators, footprints, quantities, and supplier details. |
+| `Schematic of PCB` | Circuit schematic for the PCB design. |
+| `PCB_2D view.png` | 2D preview of the completed PCB layout. |
+| `PCB_3D View.png` | 3D preview of the PCB with components placed. |
+| `PCB_Design_frontview.png` | Top copper/layer view of the PCB design. |
+| `PCB_Design_Backview.png` | Bottom copper/layer view of the PCB design. |
+
+## Key Components
+
+| Component | Designator | Purpose |
+| --- | --- | --- |
+| ESP32-WROOM-32UE | U1 | Main microcontroller with Wi-Fi and Bluetooth support. |
+| AMS1117-3.3V | U2 | 3.3V voltage regulation for the ESP32 and peripherals. |
+| DHT22 | U3 | Temperature and humidity sensing. |
+| MQ9 Gas Sensor | U4 | Gas detection input. |
+| AT24C02 EEPROM | U5 | External non-volatile memory. |
+| SSD1306 OLED | LCD1 | Local display output. |
+| USB Type-C | USB1 | Power/input connector. |
+| LDR | R2 | Light intensity sensing through ADC. |
+
+## Design Notes
+
+- Verify all footprints before sending the PCB for fabrication.
+- Check the ESP32 power supply requirements and ensure the 3.3V regulator can provide enough current.
+- Confirm sensor pin mappings with the firmware before assembly.
+- Review top and bottom layer routing for shorts, clearance issues, and manufacturability.
+- Use the BOM file when ordering parts from suppliers such as LCSC, eBay, or SeeedStudio.
+
+## Suggested Workflow
+
+1. Review the schematic.
+2. Check all component footprints against real part dimensions.
+3. Inspect the top and bottom PCB layer images.
+4. Review the 2D and 3D board views.
+5. Validate the BOM before purchasing components.
+6. Run design rule checks in the PCB design tool before fabrication.
+
+## Applications
+
+This PCB design can be used as a foundation for beginner embedded IoT projects such as environmental monitoring, air quality sensing, light-based automation, and ESP32 sensor dashboards.
