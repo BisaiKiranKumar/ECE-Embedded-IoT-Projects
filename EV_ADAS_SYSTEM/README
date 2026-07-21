@@ -1,0 +1,57 @@
+# EV Dashboard using STM32
+
+This project demonstrates the design and implementation of an Embedded EV Dashboard using the STM32 microcontroller. The dashboard monitors and displays important electric vehicle parameters and provides a simple simulation of vehicle status.
+
+## Project Overview
+
+The objective of this project is to understand embedded system development using STM32 by designing a dashboard capable of monitoring basic EV parameters.
+
+## Features
+
+- Vehicle speed display
+- Battery level monitoring
+- Temperature monitoring
+- Distance/Range indication
+- Real-time dashboard simulation
+- Embedded C implementation using STM32
+
+## Hardware Used
+
+- STM32 Blue Pill (STM32F103C8T6)
+- LEDs
+- Potentiometers
+- Push Buttons
+- Ultrasonic Sensors(3)
+- Breadboard
+- Jumper Wires
+
+## Software & Tools
+
+- STM32CubeIDE
+- Python (for dashboard)
+- VSPE
+- Picsimlab
+- Embedded C
+- STM32 HAL Library
+- GitHub
+
+## Project Files
+
+This folder contains:
+
+- Source Code
+- STM32 Project Files
+- Python code
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+- STM32 programming
+- GPIO configuration
+- ADC interfacing
+- Embedded C programming
+- Debugging embedded applications
+- Embedded dashboard development
+
+This project was developed as part of my Electronics and Communication Engineering (ECE) learning and is intended for educational and internship portfolio purposes.

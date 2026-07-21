@@ -1,0 +1,65 @@
+# IoT-Based Industrial Machine Monitoring and Cable Fault Visualization Using ESP8266
+
+This project demonstrates an IoT-based industrial monitoring system using the ESP8266 NodeMCU. It continuously monitors machine temperature, vibration, and cable fault conditions while displaying live data on a web dashboard over a WiFi network.
+
+## Project Overview
+
+The objective of this project is to improve industrial machine monitoring by providing real-time sensor data and cable fault visualization through an embedded web server.
+
+## Features
+
+- Real-time temperature monitoring using DHT11
+- Machine vibration detection using SW-420 sensor
+- Cable fault visualization using potentiometer simulation
+- Live web dashboard using ESP8266 Web Server
+- Alarm indication using buzzer
+- Push-button alarm acknowledgement
+- WiFi-based monitoring
+
+## Hardware Used
+
+- ESP8266 NodeMCU
+- DHT11 Temperature & Humidity Sensor
+- SW-420 Vibration Sensor
+- Potentiometer
+- Push Button
+- Buzzer
+- Breadboard
+- Jumper Wires
+
+## Software & Tools
+
+- Arduino IDE
+- Embedded C
+- ESP8266 Web Server
+- HTML
+- CSS
+- GitHub
+
+## Project Files
+
+This folder contains:
+
+- Source Code
+- Project Report
+- Presentation
+- Dashboard Images
+- Documentation
+
+## Learning Outcomes
+
+- ESP8266 Programming
+- Embedded Web Server Development
+- Sensor Interfacing
+- WiFi Communication
+- IoT Dashboard Development
+- Industrial Monitoring Concepts
+
+## Future Improvements
+
+- Cloud integration using AWS IoT or Blynk
+- Predictive maintenance using Machine Learning
+- Current and Voltage Monitoring
+- GSM/LTE-based Remote Monitoring
+
+This project was developed as part of my Electronics and Communication Engineering (ECE) learning and is intended for educational and internship portfolio purposes.

@@ -1,0 +1,42 @@
+# ESP32 Home Automation System
+
+This project demonstrates a WiFi-based Home Automation System using the ESP32 microcontroller. It allows users to control home appliances remotely over a WiFi network.
+
+## Project Overview
+
+The project was developed to understand IoT-based home automation using the ESP32. It focuses on wireless device control and embedded system implementation.
+
+## Features
+
+- WiFi-based appliance control
+- ESP32 microcontroller
+- Relay control for electrical devices
+- IoT-based remote operation
+- Embedded C programming
+
+## Technologies Used
+
+- ESP32
+- Arduino IDE
+- Embedded C
+- WiFi Communication
+- Relay Module
+
+## Project Files
+
+This folder contains:
+
+- Source Code
+- Project Report
+- Circuit Diagram included in the report
+- Components List
+
+## Learning Outcomes
+
+- ESP32 programming
+- IoT fundamentals
+- WiFi communication
+- Relay interfacing
+- Embedded system development
+
+This project was developed as part of my Electronics and Communication Engineering (ECE) learning and is intended for educational and internship portfolio purposes.
