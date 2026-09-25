@@ -1,6 +1,6 @@
 # Embedded Systems & IoT Projects
 
-This repository contains my hands-on projects in Embedded Systems, IoT, PCB Design, and STM32 development, created as part of my Electronics and Communication Engineering (ECE) learning.
+This repository contains my hands-on projects in Embedded Systems, IoT, PCB Design, EV Systems, and STM32 development, created as part of my Electronics and Communication Engineering (ECE) learning.
 
 ## Projects Included
 
@@ -28,15 +28,27 @@ This repository contains my hands-on projects in Embedded Systems, IoT, PCB Desi
 - BOM Creation
 - PCB Visualization
 
+### Edge AI Based Smart EV Charging Station Optimizer
+- ESP32
+- Embedded C/C++
+- PlatformIO
+- Edge AI
+- Smart EV Charging
+- EV Charging Optimization
+- Wokwi Simulation
+
 ## Technologies Used
 
-- Embedded C
+- Embedded C/C++
 - Arduino IDE
+- PlatformIO
 - STM32CubeIDE
 - ESP32
 - ESP8266
+- STM32
 - PCB Design
-- Git & GitHub
+- Edge AI
 - IoT
+- Git & GitHub
 
-This repository is maintained for learning, internship, and portfolio purposes.
+This repository is maintained for learning, internship, project development, and portfolio purposes.
